@@ -1,0 +1,35 @@
+// Place all the styles related to the chat controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+body {
+  margin: 0 auto;
+  width: 500px;
+}
+
+h1 {
+  text-align: center;
+}
+
+#chatbox {
+  height: 150px;
+  width: 490px;
+  border: 1px solid #ccc;
+  margin-bottom: 15px;
+  padding: 5px;
+  overflow: auto;
+  .chat-message {
+    color: #555;
+    font-size: 12px;
+  }
+}
+
+#chat,
+#register {
+  input {
+    width: 80%;
+  }
+  button {
+    width: 18%;
+  }
+}
